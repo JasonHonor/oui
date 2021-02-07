@@ -3,21 +3,18 @@
 [1]: https://img.shields.io/badge/开源协议-MIT-brightgreen.svg?style=plastic
 [2]: /LICENSE
 [3]: https://img.shields.io/badge/提交代码-欢迎-brightgreen.svg?style=plastic
-[4]: https://github.com/zhaojh329/oui/pulls
+[4]: https://github.com/JasonHonor/oui/pulls
 [5]: https://img.shields.io/badge/提问-欢迎-brightgreen.svg?style=plastic
-[6]: https://github.com/zhaojh329/oui/issues/new
-[7]: https://travis-ci.org/zhaojh329/oui.svg?branch=master
-[8]: https://travis-ci.org/zhaojh329/oui
+[6]: https://github.com/JasonHonor/oui/issues/new
+[7]: https://travis-ci.org/JasonHonor/oui.svg?branch=master
+[8]: https://travis-ci.org/JasonHonor/oui
 [9]: https://img.shields.io/badge/支持oui-赞助作者-blueviolet.svg
-[10]: https://gitee.com/zhaojh329/oui#project-donate-overview
-[11]: https://img.shields.io/badge/技术交流群-点击加入：153530783-brightgreen.svg
 [12]: https://jq.qq.com/?_wv=1027&k=5PKxbTV
 
 [![license][1]][2]
 [![PRs Welcome][3]][4]
 [![Issue Welcome][5]][6]
 [![Build Status][7]][8]
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=zhaojh329.oui)
 [![Support oui][9]][10]
 [![Chinese Chat][11]][12]
 
@@ -38,7 +35,7 @@ Oui特别适合用于企业定制开发。
 # 如何编译
 ## 添加 feeds
 
-	echo "src-git oui https://github.com/zhaojh329/oui.git" >> feeds.conf.default
+	echo "src-git oui https://github.com/JasonHonor/oui.git" >> feeds.conf.default
 	./scripts/feeds update oui
 	./scripts/feeds install -a -p oui
 
@@ -113,6 +110,6 @@ Oui特别适合用于企业定制开发。
 ```
 
 # 贡献代码
-如果你想帮助[oui](https://github.com/zhaojh329/oui) 变得更好，请参考
+如果你想帮助[oui](https://github.com/JasonHonor/oui) 变得更好，请参考
 [CONTRIBUTING_ZH.md](/CONTRIBUTING_ZH.md)。
 
