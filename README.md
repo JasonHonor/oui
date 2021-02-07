@@ -3,19 +3,18 @@
 [1]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=plastic
 [2]: /LICENSE
 [3]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic
-[4]: https://github.com/zhaojh329/oui/pulls
+[4]: https://github.com/JasonHonor/oui/pulls
 [5]: https://img.shields.io/badge/Issues-welcome-brightgreen.svg?style=plastic
-[6]: https://github.com/zhaojh329/oui/issues/new
-[7]: https://travis-ci.org/zhaojh329/oui.svg?branch=master
-[8]: https://travis-ci.org/zhaojh329/oui
+[6]: https://github.com/JasonHonor/oui/issues/new
+[7]: https://travis-ci.org/JasonHonor/oui.svg?branch=master
+[8]: https://travis-ci.org/JasonHonor/oui
 [9]: https://img.shields.io/badge/Support%20oui-Donate-blueviolet.svg
-[10]: https://paypal.me/zjh329
+
 
 [![license][1]][2]
 [![PRs Welcome][3]][4]
 [![Issue Welcome][5]][6]
 [![Build Status][7]][8]
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=zhaojh329.oui)
 [![Support oui][9]][10]
 
 [vue.js]: https://github.com/vuejs/vue
@@ -35,7 +34,7 @@ Oui is especially suitable for enterprise custom development.
 # How to build
 ## Add feeds
 
-	echo "src-git oui https://github.com/zhaojh329/oui.git" >> feeds.conf.default
+	echo "src-git oui https://github.com/JasonHonor/oui.git" >> feeds.conf.default
 	./scripts/feeds update oui
 	./scripts/feeds install -a -p oui
 
